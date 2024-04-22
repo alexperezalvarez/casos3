@@ -1,0 +1,44 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #4fc695;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el cuerpo */
+main {
+    padding: 20px;
+}
+
+/* Estilos para los formularios y resultados */
+section {
+    margin-bottom: 20px;
+}
+
+/* Otros estilos según sea necesario */
+body{
+    background-color: lightcyan;
+    font-size: 20px;
+    text-align: center;
+}
+
+textArea{
+    width:600px;
+    height:120px;
+    border: 3px solid;
+}
+
+section p{
+    background-color: rgb(54, 181, 164);
+    margin: 5px 10px; 
+    padding: 5px 10px;    
+    font-size: 25px;
+    border-radius: 20px;    
+}
+
+table {
+    margin: 0 auto;
+    border: 2px solid;
+    text-align: center;
+}

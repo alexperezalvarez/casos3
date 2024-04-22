@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Vehículo</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo-50-años.png" alt="Logo" width="200" height="90">
+        <h1>Gestión de Vehículo</h1>
+    </header>
+    <main>
+        <section>
+            <p>Aplicativo para el ingreso de vehiculos de forma masiva, los cuales pueden ser Vehiculos Publicos con formato: 1 Empresa Placa Modelo SOAT o Vehiculos Particulares con formato: 2 Propietario Placa Modelo SOAT</p>
+            <textarea id="laEntrada">1 Hyundai QEA974 1994 1234 SEGUROS MUNDIAL 738000;2 Alexander CNC121 2015 4254 SURA 900000;1 Papagayo ZNV432 2019 9872 SURA 2000000;2 MISUBICHI ONH070 2000 7209 SEGUROS DEL ESTADO 750000;1 CHEVROLET LUV HCB870 1984 4903 SEGUROS DEL ESTADO 100000</textarea>
+            <p></p>
+            <textarea id="laRespuesta" readonly></textarea><br>
+            <select  class="form-select" aria-label="Default select example">
+                <option value="IngresarOrdenar" selected>Ingresar-OrdenarPlaca</option>
+                <option value="OrdenarModelo">Ordenar por Modelo</option>
+                <option value="BuscarPlaca">Buscar por Placa</option> 
+            </select> 
+            <button id="procesar">Ejecutar funcionalidad</button>   
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>Creado por el profesor Orlando Arboleda Molina, para el curso de EDyA1 en el Universidad Autónoma de Occidente</p>
+    </footer>
+    <script src="scripts/ordenamientos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
